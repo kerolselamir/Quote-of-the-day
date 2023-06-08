@@ -1,0 +1,63 @@
+
+
+.Quote h1 
+{
+font-family: Impact;
+font-size: 80px;
+text-align: center
+}
+
+.Quote p
+{
+font-size: 35px;
+text-align: center;
+margin-top:-10px;
+}
+.Quote
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.Quote button
+{
+    background-color:blue;
+    padding: 40px;
+    width: 270px;
+    height:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 50px;
+    
+}
+.Quote button:hover
+{
+background-color: green;
+cursor: pointer;
+}
+.Quote button a
+{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}
+.Quote button a:hover
+{
+ cursor: default;
+}
+.Quote .q-w
+{
+    width:64%  ;
+}
+
+
+#qote-of-day img
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    top:50%;
+    transform: translateY(27%);
+}
